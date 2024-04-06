@@ -1,0 +1,22 @@
+package set;
+
+import java.util.HashSet; //HashSet 클래스 불러오기
+import java.util.Iterator;
+
+public class HashSetTest1 { //HashSetTest1 클래스 시작영역
+	public static void main(String[] args) { //main 메소드 시작영역
+		HashSet<String> animalSet = new HashSet<>();
+		//String 타입의 HashSet 컬렉션 생성, 동일한 타입의 생성자 저장
+		animalSet.add("강아지");	//animalSet에 강아지 추가
+		animalSet.add("고양이");	//animalSet에 고양이 추가
+		animalSet.add("기린");	//animalSet에 기린 추가
+		System.out.println(animalSet); //animalSet 값 출력
+		
+		Iterator<String> animalIter = animalSet.iterator();
+		//String 타입의 반복자 animalIter 생성
+		//HashSet의 Iterator 객체 가져오기
+		
+		
+	} //main 메소드 종료영역
+
+} //HashSetTest1 클래스 종료영역

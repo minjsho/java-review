@@ -1,0 +1,13 @@
+package task03;
+
+public class task03 {
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	static int putNum(String st) throws NumberFormatException{
+		return Integer.parseInt(st);
+	}
+
+}

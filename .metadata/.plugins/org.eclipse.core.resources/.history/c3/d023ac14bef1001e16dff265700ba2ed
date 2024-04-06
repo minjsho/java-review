@@ -1,0 +1,9 @@
+package set;
+
+public class HashSetTest3 {
+	public static void main(String[] args) {
+		ArrayList<Integer> list = new ArrayList<>();
+		
+	}
+
+}

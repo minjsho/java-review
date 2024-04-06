@@ -1,0 +1,11 @@
+package section08;
+
+public class Ex08_05 {
+	public static void main(String[] args) {
+		Jogger jog = new Jogger();
+		jog.sayName();
+		jog.run();
+		
+	}
+
+}

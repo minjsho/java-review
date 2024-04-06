@@ -1,0 +1,19 @@
+package task03;
+
+public class task03 {
+	public static void main(String[] args) {
+		
+		try {
+			System.out.println(putNum("123"));
+		} catch (NumberFormatException e) {
+			System.out.println("숫자가 아닌 문자열이 입력되었습니다");
+			e.printStackTrace();
+		}
+		
+	}
+	
+	static int putNum(String st) throws NumberFormatException{
+		return Integer.parseInt(st);
+	}
+
+}

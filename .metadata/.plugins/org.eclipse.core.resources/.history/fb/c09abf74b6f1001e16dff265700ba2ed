@@ -1,0 +1,18 @@
+package set;
+
+import java.util.HashSet; //HashSet 클래스 불러오기
+
+public class HashSetTest1 { //HashSetTest1 클래스 시작영역
+	public static void main(String[] args) { //main 메소드 시작영역
+		HashSet<String> animalSet = new HashSet<>();
+		//String 타입의 HashSet 컬렉션 생성, 동일한 타입의 생성자
+		animalSet.add("강아지");
+		animalSet.add("고양이");
+		animalSet.add("기린");
+		System.out.println(animalSet);
+		
+		
+		
+	} //main 메소드 종료영역
+
+} //HashSetTest1 클래스 종료영역

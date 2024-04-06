@@ -1,0 +1,6 @@
+package task01;
+
+public abstract class Food {
+	abstract void calculatePrice();
+	abstract void getFoodName();
+}

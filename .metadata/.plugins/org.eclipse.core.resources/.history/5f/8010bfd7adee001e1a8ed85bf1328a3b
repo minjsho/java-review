@@ -1,0 +1,26 @@
+package task05;
+
+import java.util.Scanner;
+
+public class Wapper {
+	public static void main(String[] args) {
+		//입력스캐너
+		//입력받을 문구 출력 - for 반복 5번
+		//입력값 배열로 저장
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i=0; i<5; i++) {
+			System.out.print("이름을 입력하세요 : ");
+			Object[] arName = new Object[] {sc.next()};
+			System.out.println("점수를 입력하세요 : ");
+			Object[] arScore = new Object[] {sc.nextInt()};
+			
+			for(Object score : arScore) {
+				System.out.println(arScore);
+			}
+		}
+		
+		
+	}
+}

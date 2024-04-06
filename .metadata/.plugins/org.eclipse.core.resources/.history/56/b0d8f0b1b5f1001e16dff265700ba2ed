@@ -1,0 +1,9 @@
+package set;
+
+public class HashSetTest1 {
+	public static void main(String[] args) {
+		HashSet<String> animalSet = new HashSet<>();
+		
+	}
+
+}
