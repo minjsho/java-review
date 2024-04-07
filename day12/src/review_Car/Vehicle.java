@@ -5,7 +5,7 @@ public abstract class Vehicle { //Vehicle 추상클래스 시작영역
 	
 	//각각의 하위클래스에서 재정의하여 사용할 메소드이므로 추상메소드로 생성
 	abstract void setSpeed(int speed);
-	abstract int getSpeed(); //반환값이 있어 타입이 정해짐
+	abstract int getSpeed(); //반환값이 있어 타입이 int로 정해짐
 	
 }
 //차량Vehicle 추상 클래스
